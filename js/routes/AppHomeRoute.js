@@ -1,10 +1,10 @@
 export default class extends Relay.Route {
   static queries = {
-    viewer: () => Relay.QL`
+    stop: () => Relay.QL`
       query {
-        viewer
+        stop(id: "HSL:2222222")
       }
     `,
   };
-  static routeName = 'AppHomeRoute';
+  static routeName = 'StopRoute';
 }
