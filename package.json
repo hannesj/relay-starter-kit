@@ -17,6 +17,7 @@
     "express-graphql": "0.3.0",
     "graphql": "0.4.2",
     "graphql-relay": "0.3.2",
+    "moment": "^2.10.6",
     "react": "^0.14.0-rc",
     "react-dom": "^0.14.0-rc",
     "react-relay": "^0.3.1",
