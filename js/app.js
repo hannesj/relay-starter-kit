@@ -8,7 +8,7 @@ Relay.injectNetworkLayer(
 ReactDOM.render(
   <Relay.RootContainer
     Component={Stop}
-    route={new StopRoute()}
+    route={new StopRoute({stopId: location.search.substr(1)})}
   />,
   document.getElementById('root')
 );
